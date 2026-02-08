@@ -4,7 +4,7 @@ from datetime import datetime, timezone
 import urllib.request
 import urllib.parse
 
-from openai import OpenAI
+from app.openai_client import get_openai_client
 from app.channel_loader import (
     resolve_channel_id,
     search_channel_videos,
@@ -17,7 +17,6 @@ from app.transcript_loader import get_transcript
 from app.chunker import chunk_transcript
 
 
-client = OpenAI()
 MODEL = os.getenv("BATTLECARD_LLM_MODEL", "gpt-4o-mini")
 
 
@@ -140,6 +139,7 @@ def _classify_fallback_items(items: list[dict]) -> dict | None:
     ]
 
     try:
+        client = get_openai_client()
         response = client.chat.completions.create(
             model=MODEL,
             response_format={"type": "json_object"},
@@ -457,6 +457,7 @@ def generate_weekly_battlecard(channel_urls: list[str], max_channels: int = 10, 
             "evidence": []
         }
 
+    client = get_openai_client()
     response = client.chat.completions.create(
         model=MODEL,
         response_format={"type": "json_object"},

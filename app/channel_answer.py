@@ -1,4 +1,4 @@
-from openai import OpenAI
+from app.openai_client import get_openai_client
 from app.channel_loader import resolve_channel_id, search_channel_videos
 from app.transcript_loader import get_transcript
 from app.chunker import chunk_transcript
@@ -7,10 +7,10 @@ from app.vector_store import add_vectors, search, reset_index
 from app.rag_answer import _filter_evidence
 
 
-client = OpenAI()
 
 
 def answer_question_across_channels(question: str, channel_urls: list[str]):
+    client = get_openai_client()
     max_channels = 10
     channel_urls = channel_urls[:max_channels]
 

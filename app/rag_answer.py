@@ -4,10 +4,9 @@ from app.whisper_fallback import transcribe_video
 from app.chunker import chunk_transcript
 from app.embeddings import embed
 from app.vector_store import add_vectors, search, reset_index
-from openai import OpenAI
+from app.openai_client import get_openai_client
 import re
 
-client = OpenAI()
 
 
 # -------------------------------------------------
@@ -123,6 +122,7 @@ def answer_question(question: str):
     # CASE 1: NO USABLE VIDEO CONTENT → SAFE FALLBACK
     # -------------------------------------------------
     if indexed_chunks == 0:
+        client = get_openai_client()
         response = client.chat.completions.create(
             model="gpt-4o-mini",
             messages=[
@@ -157,6 +157,7 @@ def answer_question(question: str):
     evidence = search(q_embedding, k=6)
 
     if not evidence:
+        client = get_openai_client()
         response = client.chat.completions.create(
             model="gpt-4o-mini",
             messages=[
@@ -199,6 +200,7 @@ def answer_question(question: str):
         for e in evidence
     )
 
+    client = get_openai_client()
     response = client.chat.completions.create(
         model="gpt-4o-mini",
         messages=[

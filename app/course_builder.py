@@ -6,14 +6,12 @@ import uuid
 from concurrent.futures import ThreadPoolExecutor, TimeoutError
 from typing import Callable
 
-from openai import OpenAI
+from app.openai_client import get_openai_client
 from app.playlist_loader import fetch_playlist_videos
 from app.transcript_loader import get_transcript
 from app.whisper_fallback import transcribe_video, whisper_available
 from app.chunker import chunk_transcript
 
-
-client = OpenAI()
 
 COURSE_MODEL = os.getenv("COURSE_LLM_MODEL", "gpt-4o")
 SUMMARY_MODEL = os.getenv("COURSE_SUMMARY_MODEL", COURSE_MODEL)
@@ -109,6 +107,7 @@ def build_course(
     use_whisper_fallback: bool = False,
     max_whisper_videos: int = 1
 ) -> dict:
+    client = get_openai_client()
     def _progress(pct: int, message: str):
         if on_progress:
             on_progress(pct, message)
