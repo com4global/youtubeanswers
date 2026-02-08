@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-08T02:10:52.736669+00:00",
+  "generated_at": "2026-02-08T17:32:04.572741+00:00",
   "source": "multi_source_sync",
   "sources": [
     "manual_seed",
@@ -1446,6 +1446,133 @@
       "video_url": "",
       "tags": [],
       "last_updated": "2026-02-08T02:10:52.736669+00:00",
+      "source": "Toolify AI Directory",
+      "source_url": "https://www.toolify.ai/"
+    },
+    {
+      "name": "Seedance 2\n            \n          ByteDance's multi-modal AI tool transforming text and images into cinematic videos up to 8K.",
+      "summary": "Listed as a leading AI productivity tool.",
+      "value_proposition": "Highlighted in industry lists as a top AI tool.",
+      "category": "AI Productivity",
+      "pricing": "Unknown",
+      "features": [],
+      "website_url": "",
+      "video_url": "",
+      "tags": [
+        "image",
+        "video",
+        "ai"
+      ],
+      "last_updated": "2026-02-08T17:32:04.572741+00:00",
+      "source": "Toolify AI Directory",
+      "source_url": "https://www.toolify.ai/"
+    },
+    {
+      "name": "WonderPic - AI Photo Editor\n            \n          AI photo editor offering 40+ artistic styles, skin tone changes, and high-res output.",
+      "summary": "Listed as a leading AI productivity tool.",
+      "value_proposition": "Highlighted in industry lists as a top AI tool.",
+      "category": "AI Productivity",
+      "pricing": "Unknown",
+      "features": [],
+      "website_url": "",
+      "video_url": "",
+      "tags": [
+        "image",
+        "ai"
+      ],
+      "last_updated": "2026-02-08T17:32:04.572741+00:00",
+      "source": "Toolify AI Directory",
+      "source_url": "https://www.toolify.ai/"
+    },
+    {
+      "name": "clawbot\n           \n        Free\n       \n          Open-source, self-hosted personal AI infrastructure for autonomous task execution and privacy.",
+      "summary": "Listed as a leading AI productivity tool.",
+      "value_proposition": "Highlighted in industry lists as a top AI tool.",
+      "category": "AI Productivity",
+      "pricing": "Unknown",
+      "features": [],
+      "website_url": "",
+      "video_url": "",
+      "tags": [
+        "ai"
+      ],
+      "last_updated": "2026-02-08T17:32:04.572741+00:00",
+      "source": "Toolify AI Directory",
+      "source_url": "https://www.toolify.ai/"
+    },
+    {
+      "name": "Palix AI\n            \n          Unified AI platform for generating images, videos, and music instantly.",
+      "summary": "Listed as a leading AI productivity tool.",
+      "value_proposition": "Highlighted in industry lists as a top AI tool.",
+      "category": "AI Productivity",
+      "pricing": "Unknown",
+      "features": [],
+      "website_url": "",
+      "video_url": "",
+      "tags": [
+        "image",
+        "video",
+        "ai"
+      ],
+      "last_updated": "2026-02-08T17:32:04.572741+00:00",
+      "source": "Toolify AI Directory",
+      "source_url": "https://www.toolify.ai/"
+    },
+    {
+      "name": "Seedance2",
+      "summary": "Listed as a leading AI productivity tool.",
+      "value_proposition": "Highlighted in industry lists as a top AI tool.",
+      "category": "AI Productivity",
+      "pricing": "Unknown",
+      "features": [],
+      "website_url": "",
+      "video_url": "",
+      "tags": [],
+      "last_updated": "2026-02-08T17:32:04.572741+00:00",
+      "source": "Toolify AI Directory",
+      "source_url": "https://www.toolify.ai/"
+    },
+    {
+      "name": "Wonderpic",
+      "summary": "Listed as a leading AI productivity tool.",
+      "value_proposition": "Highlighted in industry lists as a top AI tool.",
+      "category": "AI Productivity",
+      "pricing": "Unknown",
+      "features": [],
+      "website_url": "",
+      "video_url": "",
+      "tags": [],
+      "last_updated": "2026-02-08T17:32:04.572741+00:00",
+      "source": "Toolify AI Directory",
+      "source_url": "https://www.toolify.ai/"
+    },
+    {
+      "name": "Clawbot 1",
+      "summary": "Listed as a leading AI productivity tool.",
+      "value_proposition": "Highlighted in industry lists as a top AI tool.",
+      "category": "AI Productivity",
+      "pricing": "Unknown",
+      "features": [],
+      "website_url": "",
+      "video_url": "",
+      "tags": [],
+      "last_updated": "2026-02-08T17:32:04.572741+00:00",
+      "source": "Toolify AI Directory",
+      "source_url": "https://www.toolify.ai/"
+    },
+    {
+      "name": "Palix Ai",
+      "summary": "Listed as a leading AI productivity tool.",
+      "value_proposition": "Highlighted in industry lists as a top AI tool.",
+      "category": "AI Productivity",
+      "pricing": "Unknown",
+      "features": [],
+      "website_url": "",
+      "video_url": "",
+      "tags": [
+        "ai"
+      ],
+      "last_updated": "2026-02-08T17:32:04.572741+00:00",
       "source": "Toolify AI Directory",
       "source_url": "https://www.toolify.ai/"
     }
