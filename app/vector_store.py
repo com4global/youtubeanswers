@@ -1,4 +1,3 @@
-import faiss
 import numpy as np
 
 # ==============================
@@ -15,7 +14,7 @@ EMBEDDING_DIM = 1536
 # GLOBAL STATE (MVP STYLE)
 # ==============================
 
-index = faiss.IndexFlatL2(EMBEDDING_DIM)
+vector_store: list[list[float]] = []
 metadata_store: list[dict] = []
 
 
@@ -25,17 +24,17 @@ metadata_store: list[dict] = []
 
 def reset_index():
     """
-    Reset FAISS index and metadata.
+    Reset vector store and metadata.
     IMPORTANT: Call this at the start of each request in MVP.
     """
-    global index, metadata_store
-    index.reset()
+    global vector_store, metadata_store
+    vector_store = []
     metadata_store = []
 
 
 def add_vectors(vectors: list[list[float]], metadata: list[dict]):
     """
-    Add vectors and aligned metadata to FAISS.
+    Add vectors and aligned metadata to in-memory store.
 
     vectors  -> List of embedding vectors
     metadata -> List of dicts (same length as vectors)
@@ -55,23 +54,32 @@ def add_vectors(vectors: list[list[float]], metadata: list[dict]):
             f"Expected {EMBEDDING_DIM}, got {vec_array.shape[1]}"
         )
 
-    index.add(vec_array)
+    vector_store.extend(vec_array.tolist())
     metadata_store.extend(metadata)
 
 
 def search(query_vector: list[float], k: int = 3):
     """
-    Search FAISS index and return top-k metadata entries.
+    Search in-memory vectors and return top-k metadata entries.
     """
-    if index.ntotal == 0:
+    if not vector_store:
         return []
 
-    q = np.asarray([query_vector], dtype="float32")
+    q = np.asarray(query_vector, dtype="float32")
+    if q.shape[0] != EMBEDDING_DIM:
+        raise ValueError(
+            f"Embedding dimension mismatch. "
+            f"Expected {EMBEDDING_DIM}, got {q.shape[0]}"
+        )
 
-    distances, indices = index.search(q, min(k, index.ntotal))
+    vectors = np.asarray(vector_store, dtype="float32")
+    diffs = vectors - q
+    distances = np.sum(diffs * diffs, axis=1)
+    top_k = min(k, len(vector_store))
+    indices = np.argsort(distances)[:top_k]
 
     results = []
-    for idx in indices[0]:
+    for idx in indices:
         if 0 <= idx < len(metadata_store):
             results.append(metadata_store[idx])
 
