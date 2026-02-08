@@ -4,7 +4,10 @@ import os
 import shutil
 import os
 
-import whisper
+try:
+    import whisper
+except Exception:
+    whisper = None
 
 
 def _truncate_bytes(data: bytes, max_len: int = 400) -> str:
@@ -27,13 +30,19 @@ def whisper_available() -> bool:
         return _is_available
 
     _availability_checked = True
-    _is_available = bool(shutil.which("yt-dlp")) and bool(shutil.which("ffmpeg"))
+    _is_available = (
+        whisper is not None
+        and bool(shutil.which("yt-dlp"))
+        and bool(shutil.which("ffmpeg"))
+    )
     return _is_available
 
 
 def _get_model():
     global _model
     if _model is None:
+        if whisper is None:
+            raise RuntimeError("Whisper is not available in this environment.")
         _model = whisper.load_model("base")
     return _model
 

@@ -15,6 +15,7 @@ from app.course_jobs import create_job, update_job, get_job, persist_result
 from app.course_export import load_course, build_course_pdf, build_course_pptx, build_export_filenames
 from app.channel_answer import answer_question_across_channels
 from app.weekly_battlecard import generate_weekly_battlecard
+from app.whisper_fallback import whisper_available
 from app.ai_products import (
     load_ai_products,
     maybe_refresh_ai_products,
@@ -283,7 +284,8 @@ def diagnostics():
         "yt_dlp_path": shutil.which("yt-dlp"),
         "ffmpeg_path": shutil.which("ffmpeg"),
         "yt_dlp_version": _version_info(["yt-dlp", "--version"]),
-        "ffmpeg_version": _version_info(["ffmpeg", "-version"])
+        "ffmpeg_version": _version_info(["ffmpeg", "-version"]),
+        "whisper_available": whisper_available()
     }
 
 
