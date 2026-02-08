@@ -1,0 +1,1453 @@
+{
+  "generated_at": "2026-02-08T02:10:52.736669+00:00",
+  "source": "multi_source_sync",
+  "sources": [
+    "manual_seed",
+    "Zapier AI Productivity Tools",
+    "Hugging Face Trending",
+    "Futurepedia AI Tools",
+    "There’s An AI For That",
+    "Toolify AI Directory"
+  ],
+  "products": [
+    {
+      "name": "ChatGPT",
+      "summary": "Conversational AI assistant for writing, analysis, coding, and ideation.",
+      "value_proposition": "Speeds up research, drafting, and problem solving across teams.",
+      "category": "Assistant",
+      "pricing": "Free and paid tiers",
+      "features": [
+        "Natural language chat",
+        "Code generation",
+        "File and document analysis"
+      ],
+      "website_url": "https://chat.openai.com",
+      "video_url": "https://www.youtube.com/watch?v=JTxsNm9IdYU",
+      "tags": [
+        "productivity",
+        "writing",
+        "coding"
+      ],
+      "last_updated": "2026-02-07T00:00:00+00:00"
+    },
+    {
+      "name": "Claude",
+      "summary": "AI assistant focused on long-context reasoning and safety.",
+      "value_proposition": "Handles large documents and complex reasoning tasks reliably.",
+      "category": "Assistant",
+      "pricing": "Free and paid tiers",
+      "features": [
+        "Long context analysis",
+        "Structured outputs",
+        "Strong safety alignment"
+      ],
+      "website_url": "https://claude.ai",
+      "video_url": "https://www.youtube.com/watch?v=Z3bTQ0i2lQ4",
+      "tags": [
+        "analysis",
+        "research",
+        "writing"
+      ],
+      "last_updated": "2026-02-07T00:00:00+00:00"
+    },
+    {
+      "name": "Midjourney",
+      "summary": "Text-to-image generator for high-quality creative visuals.",
+      "value_proposition": "Rapidly produces concept art and marketing visuals.",
+      "category": "Design",
+      "pricing": "Paid tiers",
+      "features": [
+        "Text-to-image generation",
+        "Style control",
+        "Upscaling options"
+      ],
+      "website_url": "https://www.midjourney.com",
+      "video_url": "https://www.youtube.com/watch?v=2D6ZQyQ0QyM",
+      "tags": [
+        "design",
+        "image",
+        "creative"
+      ],
+      "last_updated": "2026-02-07T00:00:00+00:00"
+    },
+    {
+      "name": "Perplexity",
+      "summary": "Answer engine that cites sources for research queries.",
+      "value_proposition": "Improves research speed with sourced responses.",
+      "category": "Search",
+      "pricing": "Free and paid tiers",
+      "features": [
+        "Cited answers",
+        "Research collections",
+        "Multi-step query refinement"
+      ],
+      "website_url": "https://www.perplexity.ai",
+      "video_url": "https://www.youtube.com/watch?v=H0M7vVd4jYg",
+      "tags": [
+        "search",
+        "research",
+        "citations"
+      ],
+      "last_updated": "2026-02-07T00:00:00+00:00"
+    },
+    {
+      "name": "Runway",
+      "summary": "AI video creation and editing toolkit.",
+      "value_proposition": "Enables fast video generation and editing for teams.",
+      "category": "Video",
+      "pricing": "Free and paid tiers",
+      "features": [
+        "Text-to-video",
+        "Video editing tools",
+        "Background removal"
+      ],
+      "website_url": "https://runwayml.com",
+      "video_url": "https://www.youtube.com/watch?v=7rYj3rQ3l3g",
+      "tags": [
+        "video",
+        "creative",
+        "editing"
+      ],
+      "last_updated": "2026-02-07T00:00:00+00:00"
+    },
+    {
+      "name": "GitHub Copilot",
+      "summary": "AI coding assistant embedded in editors.",
+      "value_proposition": "Speeds up coding by suggesting code and tests.",
+      "category": "Developer",
+      "pricing": "Paid tiers",
+      "features": [
+        "Inline code suggestions",
+        "Chat-based code help",
+        "Multi-language support"
+      ],
+      "website_url": "https://github.com/features/copilot",
+      "video_url": "https://www.youtube.com/watch?v=6tJxJd3sQdE",
+      "tags": [
+        "coding",
+        "developer",
+        "productivity"
+      ],
+      "last_updated": "2026-02-07T00:00:00+00:00"
+    },
+    {
+      "name": "n8n",
+      "summary": "Open-source workflow automation platform with AI integrations.",
+      "value_proposition": "Connects apps and AI models to automate complex workflows.",
+      "category": "Automation",
+      "pricing": "Free and paid tiers",
+      "features": [
+        "Visual workflow builder",
+        "Self-hosted or cloud",
+        "AI agent integrations"
+      ],
+      "website_url": "https://n8n.io/",
+      "video_url": "https://www.youtube.com/watch?v=6L4jO2Pr6z0",
+      "tags": [
+        "automation",
+        "workflow",
+        "ai"
+      ],
+      "last_updated": "2026-02-07T00:00:00+00:00"
+    },
+    {
+      "name": "Cursor",
+      "summary": "AI-first code editor for faster software development.",
+      "value_proposition": "Accelerates coding with AI assistance directly in the editor.",
+      "category": "Developer",
+      "pricing": "Free and paid tiers",
+      "features": [
+        "AI code completion",
+        "Chat with codebase",
+        "Agentic edits"
+      ],
+      "website_url": "https://cursor.com/",
+      "video_url": "https://www.youtube.com/watch?v=YpV1S4r4x7k",
+      "tags": [
+        "coding",
+        "developer",
+        "productivity"
+      ],
+      "last_updated": "2026-02-07T00:00:00+00:00"
+    },
+    {
+      "name": "Google Gemini",
+      "summary": "Listed as a leading AI productivity tool.",
+      "value_proposition": "Highlighted in industry lists as a top AI tool.",
+      "category": "AI Productivity",
+      "pricing": "Unknown",
+      "features": [],
+      "website_url": "",
+      "video_url": "",
+      "tags": [],
+      "last_updated": "2026-02-07T18:16:10.785776+00:00",
+      "source": "Futurepedia AI Tools",
+      "source_url": "https://www.futurepedia.io/"
+    },
+    {
+      "name": "Grok",
+      "summary": "Listed as a leading AI productivity tool.",
+      "value_proposition": "Highlighted in industry lists as a top AI tool.",
+      "category": "AI Productivity",
+      "pricing": "Unknown",
+      "features": [],
+      "website_url": "",
+      "video_url": "",
+      "tags": [],
+      "last_updated": "2026-02-07T18:16:10.785776+00:00",
+      "source": "Futurepedia AI Tools",
+      "source_url": "https://www.futurepedia.io/"
+    },
+    {
+      "name": "Leonardo AI",
+      "summary": "Listed as a leading AI productivity tool.",
+      "value_proposition": "Highlighted in industry lists as a top AI tool.",
+      "category": "AI Productivity",
+      "pricing": "Unknown",
+      "features": [],
+      "website_url": "",
+      "video_url": "",
+      "tags": [
+        "ai"
+      ],
+      "last_updated": "2026-02-07T18:16:10.785776+00:00",
+      "source": "Futurepedia AI Tools",
+      "source_url": "https://www.futurepedia.io/"
+    },
+    {
+      "name": "Perplexity Ai",
+      "summary": "Listed as a leading AI productivity tool.",
+      "value_proposition": "Highlighted in industry lists as a top AI tool.",
+      "category": "AI Productivity",
+      "pricing": "Unknown",
+      "features": [],
+      "website_url": "",
+      "video_url": "",
+      "tags": [
+        "ai"
+      ],
+      "last_updated": "2026-02-07T18:16:10.785776+00:00",
+      "source": "Futurepedia AI Tools",
+      "source_url": "https://www.futurepedia.io/"
+    },
+    {
+      "name": "Leonardoai",
+      "summary": "Listed as a leading AI productivity tool.",
+      "value_proposition": "Highlighted in industry lists as a top AI tool.",
+      "category": "AI Productivity",
+      "pricing": "Unknown",
+      "features": [],
+      "website_url": "",
+      "video_url": "",
+      "tags": [
+        "ai"
+      ],
+      "last_updated": "2026-02-07T18:16:10.785776+00:00",
+      "source": "Futurepedia AI Tools",
+      "source_url": "https://www.futurepedia.io/"
+    },
+    {
+      "name": "Seedance 2\n            \n          Next-gen, ultra-realistic AI video generator creating stunning videos instantly without login or fees.",
+      "summary": "Listed as a leading AI productivity tool.",
+      "value_proposition": "Highlighted in industry lists as a top AI tool.",
+      "category": "AI Productivity",
+      "pricing": "Unknown",
+      "features": [],
+      "website_url": "",
+      "video_url": "",
+      "tags": [
+        "video",
+        "ai"
+      ],
+      "last_updated": "2026-02-07T18:16:14.638630+00:00",
+      "source": "Toolify AI Directory",
+      "source_url": "https://www.toolify.ai/"
+    },
+    {
+      "name": "Kling 3.0 AI\n            \n          Built around Kling 3.0, our API-powered platform helps you generate cinematic AI videos with multi-shot storyboarding, optional native audio, and stronger subject consistency — plus a full image suite with 10 frontier image models (Flux 2 family, Nano Banana, Seedream, GPT-4o, Z-Image). Generate multiple outputs per prompt, use up to 8 reference images on supported models, and pay with a transparent fixed credit system for images (2–6 credits per generation).",
+      "summary": "Listed as a leading AI productivity tool.",
+      "value_proposition": "Highlighted in industry lists as a top AI tool.",
+      "category": "AI Productivity",
+      "pricing": "Unknown",
+      "features": [],
+      "website_url": "",
+      "video_url": "",
+      "tags": [
+        "image",
+        "video",
+        "ai"
+      ],
+      "last_updated": "2026-02-07T18:16:14.638630+00:00",
+      "source": "Toolify AI Directory",
+      "source_url": "https://www.toolify.ai/"
+    },
+    {
+      "name": "Seedance 2.0\n            \n          AI video generator (ByteDance Seedance V2) creating 1080p cinematic videos from text/images.",
+      "summary": "Listed as a leading AI productivity tool.",
+      "value_proposition": "Highlighted in industry lists as a top AI tool.",
+      "category": "AI Productivity",
+      "pricing": "Unknown",
+      "features": [],
+      "website_url": "",
+      "video_url": "",
+      "tags": [
+        "image",
+        "video",
+        "ai"
+      ],
+      "last_updated": "2026-02-07T18:16:14.638630+00:00",
+      "source": "Toolify AI Directory",
+      "source_url": "https://www.toolify.ai/"
+    },
+    {
+      "name": "ClawShip\n            \n          Official, one-click, fully managed deployment platform for OpenClaw AI bots.",
+      "summary": "Listed as a leading AI productivity tool.",
+      "value_proposition": "Highlighted in industry lists as a top AI tool.",
+      "category": "AI Productivity",
+      "pricing": "Unknown",
+      "features": [],
+      "website_url": "",
+      "video_url": "",
+      "tags": [
+        "ai"
+      ],
+      "last_updated": "2026-02-07T18:16:14.638630+00:00",
+      "source": "Toolify AI Directory",
+      "source_url": "https://www.toolify.ai/"
+    },
+    {
+      "name": "Use AI\n            \n          Multi-Model AI Chat Assistant providing unified access to 25+ LLMs like GPT-5 and Claude.",
+      "summary": "Listed as a leading AI productivity tool.",
+      "value_proposition": "Highlighted in industry lists as a top AI tool.",
+      "category": "AI Productivity",
+      "pricing": "Unknown",
+      "features": [],
+      "website_url": "",
+      "video_url": "",
+      "tags": [
+        "assistant",
+        "llm",
+        "ai"
+      ],
+      "last_updated": "2026-02-07T18:16:14.638630+00:00",
+      "source": "Toolify AI Directory",
+      "source_url": "https://www.toolify.ai/"
+    },
+    {
+      "name": "AI Natural Write\n            \n          Humanizes AI text using proprietary Anti-AI algorithm to bypass major AI detectors.",
+      "summary": "Listed as a leading AI productivity tool.",
+      "value_proposition": "Highlighted in industry lists as a top AI tool.",
+      "category": "AI Productivity",
+      "pricing": "Unknown",
+      "features": [],
+      "website_url": "",
+      "video_url": "",
+      "tags": [
+        "ai"
+      ],
+      "last_updated": "2026-02-07T18:16:14.638630+00:00",
+      "source": "Toolify AI Directory",
+      "source_url": "https://www.toolify.ai/"
+    },
+    {
+      "name": "PaperBanana\n            \n          Automates publication-ready academic illustrations and scientific figures using multi-agent AI.",
+      "summary": "Listed as a leading AI productivity tool.",
+      "value_proposition": "Highlighted in industry lists as a top AI tool.",
+      "category": "AI Productivity",
+      "pricing": "Unknown",
+      "features": [],
+      "website_url": "",
+      "video_url": "",
+      "tags": [
+        "ai"
+      ],
+      "last_updated": "2026-02-07T18:16:14.638630+00:00",
+      "source": "Toolify AI Directory",
+      "source_url": "https://www.toolify.ai/"
+    },
+    {
+      "name": "AI UGC Video Generator\n            \n          AI UGC Video Generator for creating high-converting, cost-effective video ads instantly.",
+      "summary": "Listed as a leading AI productivity tool.",
+      "value_proposition": "Highlighted in industry lists as a top AI tool.",
+      "category": "AI Productivity",
+      "pricing": "Unknown",
+      "features": [],
+      "website_url": "",
+      "video_url": "",
+      "tags": [
+        "video",
+        "ai"
+      ],
+      "last_updated": "2026-02-07T18:16:14.638630+00:00",
+      "source": "Toolify AI Directory",
+      "source_url": "https://www.toolify.ai/"
+    },
+    {
+      "name": "AIGAZOU\n            \n          AIGAZOU is a powerful, free-to-try AI image generator that requires no signup. Powered by cutting-edge models like GPT-4o, SeeDream 4.5, and Nano Banana Pro, it transforms text into stunning visuals instantly. Join our Daily Check-in event to unlock more creative possibilities!",
+      "summary": "Listed as a leading AI productivity tool.",
+      "value_proposition": "Highlighted in industry lists as a top AI tool.",
+      "category": "AI Productivity",
+      "pricing": "Unknown",
+      "features": [],
+      "website_url": "",
+      "video_url": "",
+      "tags": [
+        "image",
+        "ai"
+      ],
+      "last_updated": "2026-02-07T18:16:14.638630+00:00",
+      "source": "Toolify AI Directory",
+      "source_url": "https://www.toolify.ai/"
+    },
+    {
+      "name": "Lorka AI\n            \n          All-in-one platform combining multiple top AI models in a single, cost-saving subscription.",
+      "summary": "Listed as a leading AI productivity tool.",
+      "value_proposition": "Highlighted in industry lists as a top AI tool.",
+      "category": "AI Productivity",
+      "pricing": "Unknown",
+      "features": [],
+      "website_url": "",
+      "video_url": "",
+      "tags": [
+        "ai"
+      ],
+      "last_updated": "2026-02-07T18:16:14.638630+00:00",
+      "source": "Toolify AI Directory",
+      "source_url": "https://www.toolify.ai/"
+    },
+    {
+      "name": "Kaomojiya\n           \n        Free\n       \n          Japan's largest kaomoji site offering over 3000 cute emoticons for free copy and paste.",
+      "summary": "Listed as a leading AI productivity tool.",
+      "value_proposition": "Highlighted in industry lists as a top AI tool.",
+      "category": "AI Productivity",
+      "pricing": "Unknown",
+      "features": [],
+      "website_url": "",
+      "video_url": "",
+      "tags": [],
+      "last_updated": "2026-02-07T18:16:14.638630+00:00",
+      "source": "Toolify AI Directory",
+      "source_url": "https://www.toolify.ai/"
+    },
+    {
+      "name": "Kling 3.0\n            \n          Free AI video generator by Kuaishou with text/image input and motion control.",
+      "summary": "Listed as a leading AI productivity tool.",
+      "value_proposition": "Highlighted in industry lists as a top AI tool.",
+      "category": "AI Productivity",
+      "pricing": "Unknown",
+      "features": [],
+      "website_url": "",
+      "video_url": "",
+      "tags": [
+        "image",
+        "video",
+        "ai"
+      ],
+      "last_updated": "2026-02-07T18:16:14.638630+00:00",
+      "source": "Toolify AI Directory",
+      "source_url": "https://www.toolify.ai/"
+    },
+    {
+      "name": "Kling 3 AI\n            \n          Next-Gen AI video generator creating professional 4K cinematic content from text.",
+      "summary": "Listed as a leading AI productivity tool.",
+      "value_proposition": "Highlighted in industry lists as a top AI tool.",
+      "category": "AI Productivity",
+      "pricing": "Unknown",
+      "features": [],
+      "website_url": "",
+      "video_url": "",
+      "tags": [
+        "video",
+        "ai"
+      ],
+      "last_updated": "2026-02-07T18:16:14.638630+00:00",
+      "source": "Toolify AI Directory",
+      "source_url": "https://www.toolify.ai/"
+    },
+    {
+      "name": "Kling 3 AI\n            \n          AI platform for 4K cinematic video and image generation with character consistency.",
+      "summary": "Listed as a leading AI productivity tool.",
+      "value_proposition": "Highlighted in industry lists as a top AI tool.",
+      "category": "AI Productivity",
+      "pricing": "Unknown",
+      "features": [],
+      "website_url": "",
+      "video_url": "",
+      "tags": [
+        "image",
+        "video",
+        "ai"
+      ],
+      "last_updated": "2026-02-07T18:16:14.638630+00:00",
+      "source": "Toolify AI Directory",
+      "source_url": "https://www.toolify.ai/"
+    },
+    {
+      "name": "Gologin Cloud Browser\n            \n          Gologin Cloud Browser is a web browser for AI and automation that allows teams and developers to run, control, and scale real browser sessions in the cloud via UI or API.",
+      "summary": "Listed as a leading AI productivity tool.",
+      "value_proposition": "Highlighted in industry lists as a top AI tool.",
+      "category": "AI Productivity",
+      "pricing": "Unknown",
+      "features": [],
+      "website_url": "",
+      "video_url": "",
+      "tags": [
+        "developer",
+        "ai"
+      ],
+      "last_updated": "2026-02-07T18:16:14.638630+00:00",
+      "source": "Toolify AI Directory",
+      "source_url": "https://www.toolify.ai/"
+    },
+    {
+      "name": "SuperTravel\n            \n          AI assistant for instant trip planning, itinerary generation, and validation.",
+      "summary": "Listed as a leading AI productivity tool.",
+      "value_proposition": "Highlighted in industry lists as a top AI tool.",
+      "category": "AI Productivity",
+      "pricing": "Unknown",
+      "features": [],
+      "website_url": "",
+      "video_url": "",
+      "tags": [
+        "assistant",
+        "ai"
+      ],
+      "last_updated": "2026-02-07T18:16:14.638630+00:00",
+      "source": "Toolify AI Directory",
+      "source_url": "https://www.toolify.ai/"
+    },
+    {
+      "name": "Anymelo\n            \n          AI tool to create royalty-free, studio-quality music instantly from text or lyrics.",
+      "summary": "Listed as a leading AI productivity tool.",
+      "value_proposition": "Highlighted in industry lists as a top AI tool.",
+      "category": "AI Productivity",
+      "pricing": "Unknown",
+      "features": [],
+      "website_url": "",
+      "video_url": "",
+      "tags": [
+        "ai"
+      ],
+      "last_updated": "2026-02-07T18:16:14.638630+00:00",
+      "source": "Toolify AI Directory",
+      "source_url": "https://www.toolify.ai/"
+    },
+    {
+      "name": "13F Insight\n            \n          13F Insight turns SEC filings into actionable investment signals. Track what 8,000+ hedge funds and institutional investors are buying and selling, with AI-powered alerts that surface unusual activity like massive new positions, complete exits, and double-downs — so you don't have to read thousands of filings yourself.",
+      "summary": "Listed as a leading AI productivity tool.",
+      "value_proposition": "Highlighted in industry lists as a top AI tool.",
+      "category": "AI Productivity",
+      "pricing": "Unknown",
+      "features": [],
+      "website_url": "",
+      "video_url": "",
+      "tags": [
+        "ai"
+      ],
+      "last_updated": "2026-02-07T18:16:14.638630+00:00",
+      "source": "Toolify AI Directory",
+      "source_url": "https://www.toolify.ai/"
+    },
+    {
+      "name": "Bulk Image Generator\n            \n          AI bulk image generator creating hundreds of high-quality visuals instantly from prompts or CSV.",
+      "summary": "Listed as a leading AI productivity tool.",
+      "value_proposition": "Highlighted in industry lists as a top AI tool.",
+      "category": "AI Productivity",
+      "pricing": "Unknown",
+      "features": [],
+      "website_url": "",
+      "video_url": "",
+      "tags": [
+        "image",
+        "ai"
+      ],
+      "last_updated": "2026-02-07T18:16:14.638630+00:00",
+      "source": "Toolify AI Directory",
+      "source_url": "https://www.toolify.ai/"
+    },
+    {
+      "name": "img2.ai\n            \n          All-in-one AI platform for transforming images into art, new styles, and animated videos.",
+      "summary": "Listed as a leading AI productivity tool.",
+      "value_proposition": "Highlighted in industry lists as a top AI tool.",
+      "category": "AI Productivity",
+      "pricing": "Unknown",
+      "features": [],
+      "website_url": "",
+      "video_url": "",
+      "tags": [
+        "image",
+        "video",
+        "ai"
+      ],
+      "last_updated": "2026-02-07T18:16:14.638630+00:00",
+      "source": "Toolify AI Directory",
+      "source_url": "https://www.toolify.ai/"
+    },
+    {
+      "name": "rehumanize.io\n           \n        Free\n       \n          Transform AI-generated text into undetectable, high-quality human-like content while maintaining the original meaning.",
+      "summary": "Listed as a leading AI productivity tool.",
+      "value_proposition": "Highlighted in industry lists as a top AI tool.",
+      "category": "AI Productivity",
+      "pricing": "Unknown",
+      "features": [],
+      "website_url": "",
+      "video_url": "",
+      "tags": [
+        "ai"
+      ],
+      "last_updated": "2026-02-07T18:16:14.638630+00:00",
+      "source": "Toolify AI Directory",
+      "source_url": "https://www.toolify.ai/"
+    },
+    {
+      "name": "EasyClaw\n           \n        Free\n       \n          The fastest, no-code installer for OpenClaw, ClawdBot, and MoltBot AI agent stack.",
+      "summary": "Listed as a leading AI productivity tool.",
+      "value_proposition": "Highlighted in industry lists as a top AI tool.",
+      "category": "AI Productivity",
+      "pricing": "Unknown",
+      "features": [],
+      "website_url": "",
+      "video_url": "",
+      "tags": [
+        "developer",
+        "ai"
+      ],
+      "last_updated": "2026-02-07T18:16:14.638630+00:00",
+      "source": "Toolify AI Directory",
+      "source_url": "https://www.toolify.ai/"
+    },
+    {
+      "name": "Design In The Browser\n            \n          AI-powered visual frontend development tool using point-and-click browser editing.",
+      "summary": "Listed as a leading AI productivity tool.",
+      "value_proposition": "Highlighted in industry lists as a top AI tool.",
+      "category": "AI Productivity",
+      "pricing": "Unknown",
+      "features": [],
+      "website_url": "",
+      "video_url": "",
+      "tags": [
+        "image",
+        "video",
+        "ai"
+      ],
+      "last_updated": "2026-02-07T18:16:14.638630+00:00",
+      "source": "Toolify AI Directory",
+      "source_url": "https://www.toolify.ai/"
+    },
+    {
+      "name": "Nana Banana AI Image Editor\n            \n          Advanced AI image editor and generator that transforms images with text prompts.",
+      "summary": "Listed as a leading AI productivity tool.",
+      "value_proposition": "Highlighted in industry lists as a top AI tool.",
+      "category": "AI Productivity",
+      "pricing": "Unknown",
+      "features": [],
+      "website_url": "",
+      "video_url": "",
+      "tags": [
+        "image",
+        "ai"
+      ],
+      "last_updated": "2026-02-07T18:16:14.638630+00:00",
+      "source": "Toolify AI Directory",
+      "source_url": "https://www.toolify.ai/"
+    },
+    {
+      "name": "AI Music Maker (MusicMakerApp)\n            \n          AI tool to generate studio-quality, royalty-free songs, beats, and vocals from text or lyrics.",
+      "summary": "Listed as a leading AI productivity tool.",
+      "value_proposition": "Highlighted in industry lists as a top AI tool.",
+      "category": "AI Productivity",
+      "pricing": "Unknown",
+      "features": [],
+      "website_url": "",
+      "video_url": "",
+      "tags": [
+        "ai"
+      ],
+      "last_updated": "2026-02-07T18:16:14.638630+00:00",
+      "source": "Toolify AI Directory",
+      "source_url": "https://www.toolify.ai/"
+    },
+    {
+      "name": "Lucid Engine\n            \n          Audit, track, and optimize your brand's visibility inside ChatGPT, Perplexity, and Gemini.The #1 Generative Engine Optimization (GEO) Platform.",
+      "summary": "Listed as a leading AI productivity tool.",
+      "value_proposition": "Highlighted in industry lists as a top AI tool.",
+      "category": "AI Productivity",
+      "pricing": "Unknown",
+      "features": [],
+      "website_url": "",
+      "video_url": "",
+      "tags": [
+        "assistant"
+      ],
+      "last_updated": "2026-02-07T18:16:14.638630+00:00",
+      "source": "Toolify AI Directory",
+      "source_url": "https://www.toolify.ai/"
+    },
+    {
+      "name": "NanoClaw\n            \n          Lightweight, secure Claude assistant leveraging OS-level container isolation.",
+      "summary": "Listed as a leading AI productivity tool.",
+      "value_proposition": "Highlighted in industry lists as a top AI tool.",
+      "category": "AI Productivity",
+      "pricing": "Unknown",
+      "features": [],
+      "website_url": "",
+      "video_url": "",
+      "tags": [
+        "assistant",
+        "ai"
+      ],
+      "last_updated": "2026-02-07T18:16:14.638630+00:00",
+      "source": "Toolify AI Directory",
+      "source_url": "https://www.toolify.ai/"
+    },
+    {
+      "name": "Seedance 2",
+      "summary": "Listed as a leading AI productivity tool.",
+      "value_proposition": "Highlighted in industry lists as a top AI tool.",
+      "category": "AI Productivity",
+      "pricing": "Unknown",
+      "features": [],
+      "website_url": "",
+      "video_url": "",
+      "tags": [],
+      "last_updated": "2026-02-07T18:16:14.638630+00:00",
+      "source": "Toolify AI Directory",
+      "source_url": "https://www.toolify.ai/"
+    },
+    {
+      "name": "Kling 3 0 Ai 1",
+      "summary": "Listed as a leading AI productivity tool.",
+      "value_proposition": "Highlighted in industry lists as a top AI tool.",
+      "category": "AI Productivity",
+      "pricing": "Unknown",
+      "features": [],
+      "website_url": "",
+      "video_url": "",
+      "tags": [
+        "ai"
+      ],
+      "last_updated": "2026-02-07T18:16:14.638630+00:00",
+      "source": "Toolify AI Directory",
+      "source_url": "https://www.toolify.ai/"
+    },
+    {
+      "name": "Seedance 2 0 1",
+      "summary": "Listed as a leading AI productivity tool.",
+      "value_proposition": "Highlighted in industry lists as a top AI tool.",
+      "category": "AI Productivity",
+      "pricing": "Unknown",
+      "features": [],
+      "website_url": "",
+      "video_url": "",
+      "tags": [],
+      "last_updated": "2026-02-07T18:16:14.638630+00:00",
+      "source": "Toolify AI Directory",
+      "source_url": "https://www.toolify.ai/"
+    },
+    {
+      "name": "Clawship",
+      "summary": "Listed as a leading AI productivity tool.",
+      "value_proposition": "Highlighted in industry lists as a top AI tool.",
+      "category": "AI Productivity",
+      "pricing": "Unknown",
+      "features": [],
+      "website_url": "",
+      "video_url": "",
+      "tags": [],
+      "last_updated": "2026-02-07T18:16:14.638630+00:00",
+      "source": "Toolify AI Directory",
+      "source_url": "https://www.toolify.ai/"
+    },
+    {
+      "name": "Use Ai",
+      "summary": "Listed as a leading AI productivity tool.",
+      "value_proposition": "Highlighted in industry lists as a top AI tool.",
+      "category": "AI Productivity",
+      "pricing": "Unknown",
+      "features": [],
+      "website_url": "",
+      "video_url": "",
+      "tags": [
+        "ai"
+      ],
+      "last_updated": "2026-02-07T18:16:14.638630+00:00",
+      "source": "Toolify AI Directory",
+      "source_url": "https://www.toolify.ai/"
+    },
+    {
+      "name": "Ai Natural Write",
+      "summary": "Listed as a leading AI productivity tool.",
+      "value_proposition": "Highlighted in industry lists as a top AI tool.",
+      "category": "AI Productivity",
+      "pricing": "Unknown",
+      "features": [],
+      "website_url": "",
+      "video_url": "",
+      "tags": [
+        "ai"
+      ],
+      "last_updated": "2026-02-07T18:16:14.638630+00:00",
+      "source": "Toolify AI Directory",
+      "source_url": "https://www.toolify.ai/"
+    },
+    {
+      "name": "Paperbanana",
+      "summary": "Listed as a leading AI productivity tool.",
+      "value_proposition": "Highlighted in industry lists as a top AI tool.",
+      "category": "AI Productivity",
+      "pricing": "Unknown",
+      "features": [],
+      "website_url": "",
+      "video_url": "",
+      "tags": [],
+      "last_updated": "2026-02-07T18:16:14.638630+00:00",
+      "source": "Toolify AI Directory",
+      "source_url": "https://www.toolify.ai/"
+    },
+    {
+      "name": "Ai Ugc Video Generator",
+      "summary": "Listed as a leading AI productivity tool.",
+      "value_proposition": "Highlighted in industry lists as a top AI tool.",
+      "category": "AI Productivity",
+      "pricing": "Unknown",
+      "features": [],
+      "website_url": "",
+      "video_url": "",
+      "tags": [
+        "video",
+        "ai"
+      ],
+      "last_updated": "2026-02-07T18:16:14.638630+00:00",
+      "source": "Toolify AI Directory",
+      "source_url": "https://www.toolify.ai/"
+    },
+    {
+      "name": "Aigazou 1",
+      "summary": "Listed as a leading AI productivity tool.",
+      "value_proposition": "Highlighted in industry lists as a top AI tool.",
+      "category": "AI Productivity",
+      "pricing": "Unknown",
+      "features": [],
+      "website_url": "",
+      "video_url": "",
+      "tags": [
+        "ai"
+      ],
+      "last_updated": "2026-02-07T18:16:14.638630+00:00",
+      "source": "Toolify AI Directory",
+      "source_url": "https://www.toolify.ai/"
+    },
+    {
+      "name": "Lorka Ai",
+      "summary": "Listed as a leading AI productivity tool.",
+      "value_proposition": "Highlighted in industry lists as a top AI tool.",
+      "category": "AI Productivity",
+      "pricing": "Unknown",
+      "features": [],
+      "website_url": "",
+      "video_url": "",
+      "tags": [
+        "ai"
+      ],
+      "last_updated": "2026-02-07T18:16:14.638630+00:00",
+      "source": "Toolify AI Directory",
+      "source_url": "https://www.toolify.ai/"
+    },
+    {
+      "name": "Kaomojiya",
+      "summary": "Listed as a leading AI productivity tool.",
+      "value_proposition": "Highlighted in industry lists as a top AI tool.",
+      "category": "AI Productivity",
+      "pricing": "Unknown",
+      "features": [],
+      "website_url": "",
+      "video_url": "",
+      "tags": [],
+      "last_updated": "2026-02-07T18:16:14.638630+00:00",
+      "source": "Toolify AI Directory",
+      "source_url": "https://www.toolify.ai/"
+    },
+    {
+      "name": "Kling 3 0 1",
+      "summary": "Listed as a leading AI productivity tool.",
+      "value_proposition": "Highlighted in industry lists as a top AI tool.",
+      "category": "AI Productivity",
+      "pricing": "Unknown",
+      "features": [],
+      "website_url": "",
+      "video_url": "",
+      "tags": [],
+      "last_updated": "2026-02-07T18:16:14.638630+00:00",
+      "source": "Toolify AI Directory",
+      "source_url": "https://www.toolify.ai/"
+    },
+    {
+      "name": "Kling 3",
+      "summary": "Listed as a leading AI productivity tool.",
+      "value_proposition": "Highlighted in industry lists as a top AI tool.",
+      "category": "AI Productivity",
+      "pricing": "Unknown",
+      "features": [],
+      "website_url": "",
+      "video_url": "",
+      "tags": [],
+      "last_updated": "2026-02-07T18:16:14.638630+00:00",
+      "source": "Toolify AI Directory",
+      "source_url": "https://www.toolify.ai/"
+    },
+    {
+      "name": "Kling 3 0",
+      "summary": "Listed as a leading AI productivity tool.",
+      "value_proposition": "Highlighted in industry lists as a top AI tool.",
+      "category": "AI Productivity",
+      "pricing": "Unknown",
+      "features": [],
+      "website_url": "",
+      "video_url": "",
+      "tags": [],
+      "last_updated": "2026-02-07T18:16:14.639654+00:00",
+      "source": "Toolify AI Directory",
+      "source_url": "https://www.toolify.ai/"
+    },
+    {
+      "name": "Gologin Cloud Browser",
+      "summary": "Listed as a leading AI productivity tool.",
+      "value_proposition": "Highlighted in industry lists as a top AI tool.",
+      "category": "AI Productivity",
+      "pricing": "Unknown",
+      "features": [],
+      "website_url": "",
+      "video_url": "",
+      "tags": [],
+      "last_updated": "2026-02-07T18:16:14.639654+00:00",
+      "source": "Toolify AI Directory",
+      "source_url": "https://www.toolify.ai/"
+    },
+    {
+      "name": "Supertravel",
+      "summary": "Listed as a leading AI productivity tool.",
+      "value_proposition": "Highlighted in industry lists as a top AI tool.",
+      "category": "AI Productivity",
+      "pricing": "Unknown",
+      "features": [],
+      "website_url": "",
+      "video_url": "",
+      "tags": [],
+      "last_updated": "2026-02-07T18:16:14.639654+00:00",
+      "source": "Toolify AI Directory",
+      "source_url": "https://www.toolify.ai/"
+    },
+    {
+      "name": "Anymelo",
+      "summary": "Listed as a leading AI productivity tool.",
+      "value_proposition": "Highlighted in industry lists as a top AI tool.",
+      "category": "AI Productivity",
+      "pricing": "Unknown",
+      "features": [],
+      "website_url": "",
+      "video_url": "",
+      "tags": [],
+      "last_updated": "2026-02-07T18:16:14.639654+00:00",
+      "source": "Toolify AI Directory",
+      "source_url": "https://www.toolify.ai/"
+    },
+    {
+      "name": "13f Insight",
+      "summary": "Listed as a leading AI productivity tool.",
+      "value_proposition": "Highlighted in industry lists as a top AI tool.",
+      "category": "AI Productivity",
+      "pricing": "Unknown",
+      "features": [],
+      "website_url": "",
+      "video_url": "",
+      "tags": [],
+      "last_updated": "2026-02-07T18:16:14.639654+00:00",
+      "source": "Toolify AI Directory",
+      "source_url": "https://www.toolify.ai/"
+    },
+    {
+      "name": "Ai Bulk Image Generator",
+      "summary": "Listed as a leading AI productivity tool.",
+      "value_proposition": "Highlighted in industry lists as a top AI tool.",
+      "category": "AI Productivity",
+      "pricing": "Unknown",
+      "features": [],
+      "website_url": "",
+      "video_url": "",
+      "tags": [
+        "image",
+        "ai"
+      ],
+      "last_updated": "2026-02-07T18:16:14.639654+00:00",
+      "source": "Toolify AI Directory",
+      "source_url": "https://www.toolify.ai/"
+    },
+    {
+      "name": "Img2 Ai",
+      "summary": "Listed as a leading AI productivity tool.",
+      "value_proposition": "Highlighted in industry lists as a top AI tool.",
+      "category": "AI Productivity",
+      "pricing": "Unknown",
+      "features": [],
+      "website_url": "",
+      "video_url": "",
+      "tags": [
+        "ai"
+      ],
+      "last_updated": "2026-02-07T18:16:14.639654+00:00",
+      "source": "Toolify AI Directory",
+      "source_url": "https://www.toolify.ai/"
+    },
+    {
+      "name": "Rehumanize Io",
+      "summary": "Listed as a leading AI productivity tool.",
+      "value_proposition": "Highlighted in industry lists as a top AI tool.",
+      "category": "AI Productivity",
+      "pricing": "Unknown",
+      "features": [],
+      "website_url": "",
+      "video_url": "",
+      "tags": [],
+      "last_updated": "2026-02-07T18:16:14.639654+00:00",
+      "source": "Toolify AI Directory",
+      "source_url": "https://www.toolify.ai/"
+    },
+    {
+      "name": "Easyclaw",
+      "summary": "Listed as a leading AI productivity tool.",
+      "value_proposition": "Highlighted in industry lists as a top AI tool.",
+      "category": "AI Productivity",
+      "pricing": "Unknown",
+      "features": [],
+      "website_url": "",
+      "video_url": "",
+      "tags": [],
+      "last_updated": "2026-02-07T18:16:14.639654+00:00",
+      "source": "Toolify AI Directory",
+      "source_url": "https://www.toolify.ai/"
+    },
+    {
+      "name": "Design In The Browser",
+      "summary": "Listed as a leading AI productivity tool.",
+      "value_proposition": "Highlighted in industry lists as a top AI tool.",
+      "category": "AI Productivity",
+      "pricing": "Unknown",
+      "features": [],
+      "website_url": "",
+      "video_url": "",
+      "tags": [
+        "image"
+      ],
+      "last_updated": "2026-02-07T18:16:14.639654+00:00",
+      "source": "Toolify AI Directory",
+      "source_url": "https://www.toolify.ai/"
+    },
+    {
+      "name": "Nana Banana Ai Image Editor",
+      "summary": "Listed as a leading AI productivity tool.",
+      "value_proposition": "Highlighted in industry lists as a top AI tool.",
+      "category": "AI Productivity",
+      "pricing": "Unknown",
+      "features": [],
+      "website_url": "",
+      "video_url": "",
+      "tags": [
+        "image",
+        "ai"
+      ],
+      "last_updated": "2026-02-07T18:16:14.639654+00:00",
+      "source": "Toolify AI Directory",
+      "source_url": "https://www.toolify.ai/"
+    },
+    {
+      "name": "Musicmakerapp",
+      "summary": "Listed as a leading AI productivity tool.",
+      "value_proposition": "Highlighted in industry lists as a top AI tool.",
+      "category": "AI Productivity",
+      "pricing": "Unknown",
+      "features": [],
+      "website_url": "",
+      "video_url": "",
+      "tags": [],
+      "last_updated": "2026-02-07T18:16:14.639654+00:00",
+      "source": "Toolify AI Directory",
+      "source_url": "https://www.toolify.ai/"
+    },
+    {
+      "name": "Lucid Engine",
+      "summary": "Listed as a leading AI productivity tool.",
+      "value_proposition": "Highlighted in industry lists as a top AI tool.",
+      "category": "AI Productivity",
+      "pricing": "Unknown",
+      "features": [],
+      "website_url": "",
+      "video_url": "",
+      "tags": [],
+      "last_updated": "2026-02-07T18:16:14.639654+00:00",
+      "source": "Toolify AI Directory",
+      "source_url": "https://www.toolify.ai/"
+    },
+    {
+      "name": "Nanoclaw",
+      "summary": "Listed as a leading AI productivity tool.",
+      "value_proposition": "Highlighted in industry lists as a top AI tool.",
+      "category": "AI Productivity",
+      "pricing": "Unknown",
+      "features": [],
+      "website_url": "",
+      "video_url": "",
+      "tags": [],
+      "last_updated": "2026-02-07T18:16:14.639654+00:00",
+      "source": "Toolify AI Directory",
+      "source_url": "https://www.toolify.ai/"
+    },
+    {
+      "name": "S \n          Seedance 2.0 AI Video Generator\n            \n          Seedance 2.0 is ByteDance's latest AI video generation model. It   supports text-to-video, image-to-video, video-to-video, and   audio-to-video — all in one model. Generate cinematic 2K videos   (4-15s) with multi-shot storytelling, character consistency,   native audio sync with 8+ language lip-sync, and precise camera   control from reference inputs. Built on Dual-Branch DiT   architecture. Free to start, no credit card required.",
+      "summary": "Listed as a leading AI productivity tool.",
+      "value_proposition": "Highlighted in industry lists as a top AI tool.",
+      "category": "AI Productivity",
+      "pricing": "Unknown",
+      "features": [],
+      "website_url": "",
+      "video_url": "",
+      "tags": [
+        "image",
+        "video",
+        "ai"
+      ],
+      "last_updated": "2026-02-07T21:31:43.250538+00:00",
+      "source": "Toolify AI Directory",
+      "source_url": "https://www.toolify.ai/"
+    },
+    {
+      "name": "Seedance 2 AI\n            \n          Multi-modal AI video generator with universal reference and built-in audio.",
+      "summary": "Listed as a leading AI productivity tool.",
+      "value_proposition": "Highlighted in industry lists as a top AI tool.",
+      "category": "AI Productivity",
+      "pricing": "Unknown",
+      "features": [],
+      "website_url": "",
+      "video_url": "",
+      "tags": [
+        "video",
+        "ai"
+      ],
+      "last_updated": "2026-02-07T21:31:43.250538+00:00",
+      "source": "Toolify AI Directory",
+      "source_url": "https://www.toolify.ai/"
+    },
+    {
+      "name": "Seedance2 AI\n            \n          ByteDance-powered AI platform generating cinematic 1080p video content from text and images.",
+      "summary": "Listed as a leading AI productivity tool.",
+      "value_proposition": "Highlighted in industry lists as a top AI tool.",
+      "category": "AI Productivity",
+      "pricing": "Unknown",
+      "features": [],
+      "website_url": "",
+      "video_url": "",
+      "tags": [
+        "image",
+        "video",
+        "ai"
+      ],
+      "last_updated": "2026-02-07T21:31:43.250538+00:00",
+      "source": "Toolify AI Directory",
+      "source_url": "https://www.toolify.ai/"
+    },
+    {
+      "name": "Seedance 2.0 AI Video Generator\n            \n          ByteDance AI video generator with native audio and 2K cinematic multi-shot narratives.",
+      "summary": "Listed as a leading AI productivity tool.",
+      "value_proposition": "Highlighted in industry lists as a top AI tool.",
+      "category": "AI Productivity",
+      "pricing": "Unknown",
+      "features": [],
+      "website_url": "",
+      "video_url": "",
+      "tags": [
+        "video",
+        "ai"
+      ],
+      "last_updated": "2026-02-07T21:31:43.250538+00:00",
+      "source": "Toolify AI Directory",
+      "source_url": "https://www.toolify.ai/"
+    },
+    {
+      "name": "NeatScribe\n            \n          Intelligent audio &amp; video to text converter",
+      "summary": "Listed as a leading AI productivity tool.",
+      "value_proposition": "Highlighted in industry lists as a top AI tool.",
+      "category": "AI Productivity",
+      "pricing": "Unknown",
+      "features": [],
+      "website_url": "",
+      "video_url": "",
+      "tags": [
+        "video"
+      ],
+      "last_updated": "2026-02-07T21:31:43.250538+00:00",
+      "source": "Toolify AI Directory",
+      "source_url": "https://www.toolify.ai/"
+    },
+    {
+      "name": "seedance 2.0\n            \n          The latest AI video generation platform for the next generation, which can generate short videos by inputting text or images, and supports transition between the first and last frames as well as video stylization.",
+      "summary": "Listed as a leading AI productivity tool.",
+      "value_proposition": "Highlighted in industry lists as a top AI tool.",
+      "category": "AI Productivity",
+      "pricing": "Unknown",
+      "features": [],
+      "website_url": "",
+      "video_url": "",
+      "tags": [
+        "image",
+        "video",
+        "ai"
+      ],
+      "last_updated": "2026-02-07T21:31:43.250538+00:00",
+      "source": "Toolify AI Directory",
+      "source_url": "https://www.toolify.ai/"
+    },
+    {
+      "name": "Seedance 2 0 Ai Video Generator",
+      "summary": "Listed as a leading AI productivity tool.",
+      "value_proposition": "Highlighted in industry lists as a top AI tool.",
+      "category": "AI Productivity",
+      "pricing": "Unknown",
+      "features": [],
+      "website_url": "",
+      "video_url": "",
+      "tags": [
+        "video",
+        "ai"
+      ],
+      "last_updated": "2026-02-07T21:31:43.251530+00:00",
+      "source": "Toolify AI Directory",
+      "source_url": "https://www.toolify.ai/"
+    },
+    {
+      "name": "Seedance 2 2",
+      "summary": "Listed as a leading AI productivity tool.",
+      "value_proposition": "Highlighted in industry lists as a top AI tool.",
+      "category": "AI Productivity",
+      "pricing": "Unknown",
+      "features": [],
+      "website_url": "",
+      "video_url": "",
+      "tags": [],
+      "last_updated": "2026-02-07T21:31:43.251530+00:00",
+      "source": "Toolify AI Directory",
+      "source_url": "https://www.toolify.ai/"
+    },
+    {
+      "name": "Seedance 2 1",
+      "summary": "Listed as a leading AI productivity tool.",
+      "value_proposition": "Highlighted in industry lists as a top AI tool.",
+      "category": "AI Productivity",
+      "pricing": "Unknown",
+      "features": [],
+      "website_url": "",
+      "video_url": "",
+      "tags": [],
+      "last_updated": "2026-02-07T21:31:43.251530+00:00",
+      "source": "Toolify AI Directory",
+      "source_url": "https://www.toolify.ai/"
+    },
+    {
+      "name": "Seedance 2 0 2",
+      "summary": "Listed as a leading AI productivity tool.",
+      "value_proposition": "Highlighted in industry lists as a top AI tool.",
+      "category": "AI Productivity",
+      "pricing": "Unknown",
+      "features": [],
+      "website_url": "",
+      "video_url": "",
+      "tags": [],
+      "last_updated": "2026-02-07T21:31:43.251530+00:00",
+      "source": "Toolify AI Directory",
+      "source_url": "https://www.toolify.ai/"
+    },
+    {
+      "name": "Neatscribe",
+      "summary": "Listed as a leading AI productivity tool.",
+      "value_proposition": "Highlighted in industry lists as a top AI tool.",
+      "category": "AI Productivity",
+      "pricing": "Unknown",
+      "features": [],
+      "website_url": "",
+      "video_url": "",
+      "tags": [],
+      "last_updated": "2026-02-07T21:31:43.251530+00:00",
+      "source": "Toolify AI Directory",
+      "source_url": "https://www.toolify.ai/"
+    },
+    {
+      "name": "Seedance 2 0 1 1",
+      "summary": "Listed as a leading AI productivity tool.",
+      "value_proposition": "Highlighted in industry lists as a top AI tool.",
+      "category": "AI Productivity",
+      "pricing": "Unknown",
+      "features": [],
+      "website_url": "",
+      "video_url": "",
+      "tags": [],
+      "last_updated": "2026-02-07T21:31:43.251530+00:00",
+      "source": "Toolify AI Directory",
+      "source_url": "https://www.toolify.ai/"
+    },
+    {
+      "name": "Seedance 2.0\n            \n          ByteDance's AI video generator offering 1080p resolution, advanced motion, and multi-shot consistency.",
+      "summary": "Listed as a leading AI productivity tool.",
+      "value_proposition": "Highlighted in industry lists as a top AI tool.",
+      "category": "AI Productivity",
+      "pricing": "Unknown",
+      "features": [],
+      "website_url": "",
+      "video_url": "",
+      "tags": [
+        "video",
+        "ai"
+      ],
+      "last_updated": "2026-02-08T02:10:52.736669+00:00",
+      "source": "Toolify AI Directory",
+      "source_url": "https://www.toolify.ai/"
+    },
+    {
+      "name": "Seedream 5.0 AI Image Generator\n            \n          AI image generator specializing in perfect text rendering and industry-optimized commercial graphics.",
+      "summary": "Listed as a leading AI productivity tool.",
+      "value_proposition": "Highlighted in industry lists as a top AI tool.",
+      "category": "AI Productivity",
+      "pricing": "Unknown",
+      "features": [],
+      "website_url": "",
+      "video_url": "",
+      "tags": [
+        "image",
+        "ai"
+      ],
+      "last_updated": "2026-02-08T02:10:52.736669+00:00",
+      "source": "Toolify AI Directory",
+      "source_url": "https://www.toolify.ai/"
+    },
+    {
+      "name": "Seedance 2.0 AI Video Generator\n            \n          AI tool generating professional, broadcast-ready 4K videos from text prompts.",
+      "summary": "Listed as a leading AI productivity tool.",
+      "value_proposition": "Highlighted in industry lists as a top AI tool.",
+      "category": "AI Productivity",
+      "pricing": "Unknown",
+      "features": [],
+      "website_url": "",
+      "video_url": "",
+      "tags": [
+        "video",
+        "ai"
+      ],
+      "last_updated": "2026-02-08T02:10:52.736669+00:00",
+      "source": "Toolify AI Directory",
+      "source_url": "https://www.toolify.ai/"
+    },
+    {
+      "name": "Orphiq\n            \n          Orphiq gives music artists and their teams a personalized AI strategist that generates release timelines, content plans, copy drafts, and career growth advice.",
+      "summary": "Listed as a leading AI productivity tool.",
+      "value_proposition": "Highlighted in industry lists as a top AI tool.",
+      "category": "AI Productivity",
+      "pricing": "Unknown",
+      "features": [],
+      "website_url": "",
+      "video_url": "",
+      "tags": [
+        "image",
+        "ai"
+      ],
+      "last_updated": "2026-02-08T02:10:52.736669+00:00",
+      "source": "Toolify AI Directory",
+      "source_url": "https://www.toolify.ai/"
+    },
+    {
+      "name": "Kolva\n            \n          Kolva is the smarter way to capture and action your meetings. Instantly record, transcribe, and get AI-powered summaries—no monthly subscription required. Pay only for what you use, from just 20p an hour. Try Kolva and get more from every meeting.",
+      "summary": "Listed as a leading AI productivity tool.",
+      "value_proposition": "Highlighted in industry lists as a top AI tool.",
+      "category": "AI Productivity",
+      "pricing": "Unknown",
+      "features": [],
+      "website_url": "",
+      "video_url": "",
+      "tags": [
+        "image",
+        "ai"
+      ],
+      "last_updated": "2026-02-08T02:10:52.736669+00:00",
+      "source": "Toolify AI Directory",
+      "source_url": "https://www.toolify.ai/"
+    },
+    {
+      "name": "Seedance 2 Ai",
+      "summary": "Listed as a leading AI productivity tool.",
+      "value_proposition": "Highlighted in industry lists as a top AI tool.",
+      "category": "AI Productivity",
+      "pricing": "Unknown",
+      "features": [],
+      "website_url": "",
+      "video_url": "",
+      "tags": [
+        "ai"
+      ],
+      "last_updated": "2026-02-08T02:10:52.736669+00:00",
+      "source": "Toolify AI Directory",
+      "source_url": "https://www.toolify.ai/"
+    },
+    {
+      "name": "Seedream 5 0 1",
+      "summary": "Listed as a leading AI productivity tool.",
+      "value_proposition": "Highlighted in industry lists as a top AI tool.",
+      "category": "AI Productivity",
+      "pricing": "Unknown",
+      "features": [],
+      "website_url": "",
+      "video_url": "",
+      "tags": [],
+      "last_updated": "2026-02-08T02:10:52.736669+00:00",
+      "source": "Toolify AI Directory",
+      "source_url": "https://www.toolify.ai/"
+    },
+    {
+      "name": "Seedance 2 0 3",
+      "summary": "Listed as a leading AI productivity tool.",
+      "value_proposition": "Highlighted in industry lists as a top AI tool.",
+      "category": "AI Productivity",
+      "pricing": "Unknown",
+      "features": [],
+      "website_url": "",
+      "video_url": "",
+      "tags": [],
+      "last_updated": "2026-02-08T02:10:52.736669+00:00",
+      "source": "Toolify AI Directory",
+      "source_url": "https://www.toolify.ai/"
+    },
+    {
+      "name": "Orphiq",
+      "summary": "Listed as a leading AI productivity tool.",
+      "value_proposition": "Highlighted in industry lists as a top AI tool.",
+      "category": "AI Productivity",
+      "pricing": "Unknown",
+      "features": [],
+      "website_url": "",
+      "video_url": "",
+      "tags": [],
+      "last_updated": "2026-02-08T02:10:52.736669+00:00",
+      "source": "Toolify AI Directory",
+      "source_url": "https://www.toolify.ai/"
+    },
+    {
+      "name": "Kolva",
+      "summary": "Listed as a leading AI productivity tool.",
+      "value_proposition": "Highlighted in industry lists as a top AI tool.",
+      "category": "AI Productivity",
+      "pricing": "Unknown",
+      "features": [],
+      "website_url": "",
+      "video_url": "",
+      "tags": [],
+      "last_updated": "2026-02-08T02:10:52.736669+00:00",
+      "source": "Toolify AI Directory",
+      "source_url": "https://www.toolify.ai/"
+    }
+  ]
+}

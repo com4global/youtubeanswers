@@ -1,0 +1,47 @@
+{
+  "course_id": "string",
+  "course_title": "string",
+  "hook": "string",
+  "difficulty": "beginner|intermediate|advanced|mixed",
+  "estimated_total_minutes": 0,
+  "modules": [
+    {
+      "module_id": "string",
+      "title": "string",
+      "objectives": [
+        "string"
+      ],
+      "estimated_minutes": 0,
+      "lessons": [
+        {
+          "lesson_id": "string",
+          "title": "string",
+          "video_id": "string",
+          "video_url": "string",
+          "summary": "string",
+          "learning_objectives": [
+            "string"
+          ],
+          "estimated_minutes": 0,
+          "difficulty": "beginner|intermediate|advanced",
+          "reading_guide_markdown": "string",
+          "study_material_markdown": "string"
+        }
+      ],
+      "quiz": [
+        {
+          "question": "string",
+          "options": [
+            "string"
+          ],
+          "answer_index": 0,
+          "explanation": "string"
+        }
+      ]
+    }
+  ],
+  "source": {
+    "playlist_url": "string",
+    "videos_count": 0
+  }
+}

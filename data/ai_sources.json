@@ -1,0 +1,24 @@
+{
+  "sources": [
+    {
+      "name": "Zapier AI Productivity Tools",
+      "url": "https://zapier.com/blog/best-ai-productivity-tools/"
+    },
+    {
+      "name": "Hugging Face Trending",
+      "url": "https://huggingface.co/trending"
+    },
+    {
+      "name": "Futurepedia AI Tools",
+      "url": "https://www.futurepedia.io/"
+    },
+    {
+      "name": "There’s An AI For That",
+      "url": "https://theresanaiforthat.com/"
+    },
+    {
+      "name": "Toolify AI Directory",
+      "url": "https://www.toolify.ai/"
+    }
+  ]
+}

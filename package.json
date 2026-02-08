@@ -1,0 +1,21 @@
+{
+  "name": "youtube-acrosssearch",
+  "version": "1.0.0",
+  "description": "Ask questions about any YouTube video. Transcribe audio, query LLM, get timestamped answers.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/com4global/youtube-acrosssearch.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/com4global/youtube-acrosssearch/issues"
+  },
+  "homepage": "https://github.com/com4global/youtube-acrosssearch#readme"
+}
